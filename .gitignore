@@ -1,0 +1,19 @@
+# Ignore Video and Weights
+*.mp4
+*.avi
+*.pt
+*.onnx
+
+# Ignore System Files
+__pycache__/
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore Docker Data (Don't upload your database!)
+postgres_data/
+
+# Ignore Virtual Env
+venv/
+env/
+.conda/

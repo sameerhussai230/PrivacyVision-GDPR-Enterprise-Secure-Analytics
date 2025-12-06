@@ -1,0 +1,10 @@
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+kafka-python>=2.0.2
+psycopg2-binary>=2.9.9
+streamlit>=1.30.0
+pandas>=2.0.0
+plotly>=5.18.0
+scipy>=1.10.0
+numpy>=1.24.0
+watchdog>=3.0.0
