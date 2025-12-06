@@ -15,8 +15,10 @@ The system processes video feeds in real-time to generate precise event analytic
 
 ## 🎥 Demo
 
+<video src="https://raw.githubusercontent.com/sameerhussai230/PrivacyVision-GDPR-Enterprise_Secure_Analytics/main/demo_video.mp4" controls width="100%"></video>
 
-![System Demo](https://via.placeholder.com/800x400.png?text=Link+to+Demo+Video+Here)
+[![Demo Video](thumbnail.png)](demo_video.mp4)
+
 
 **System In Action:**
 1.  **Ingestion:** Raw video is streamed via Kafka.
