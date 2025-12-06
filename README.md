@@ -13,11 +13,9 @@ The system processes video feeds in real-time to generate precise event analytic
 
 ---
 
-## 🎥 Demo
+## 🎥 Demo Video (GIF Preview)
 
-<video src="https://raw.githubusercontent.com/sameerhussai230/PrivacyVision-GDPR-Enterprise_Secure_Analytics/main/demo_video.mp4" controls width="100%"></video>
-
-[![Demo Video](thumbnail.png)](demo_video.mp4)
+![Demo GIF](demo_video.gif)
 
 
 **System In Action:**
