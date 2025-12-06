@@ -14,7 +14,7 @@ The system processes video feeds in real-time to generate precise event analytic
 ---
 
 ## 🎥 Demo
-*(Insert your screen recording GIF here showing the 3 windows: Producer, AI Processing, and Dashboard)*
+
 
 ![System Demo](https://via.placeholder.com/800x400.png?text=Link+to+Demo+Video+Here)
 
