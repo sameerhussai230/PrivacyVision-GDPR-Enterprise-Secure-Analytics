@@ -115,7 +115,7 @@ The tech stack is modular. By changing the Model Weights and Logic Rules, this s
 ```bash
 # Clone the repo
 git clone https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise_Secure_Analytics.git
-cd PrivacyVision
+cd PrivacyVision-GDPR-Enterprise_Secure_Analytics
 
 # Install dependencies
 pip install -r requirements.txt
