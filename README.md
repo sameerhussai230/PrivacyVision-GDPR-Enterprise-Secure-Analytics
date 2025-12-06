@@ -14,7 +14,7 @@ The system processes video feeds in real-time to generate precise event analytic
 ---
 
 ## 🎥 Demo
-*(Insert your screen recording GIF here showing the 3 windows: Producer, AI Processing, and Dashboard)*
+
 
 ![System Demo](https://via.placeholder.com/800x400.png?text=Link+to+Demo+Video+Here)
 
@@ -27,26 +27,8 @@ The system processes video feeds in real-time to generate precise event analytic
 
 ## 🏗️ Architecture Diagram
 
-The system follows a microservices pattern, decoupled by a message broker to ensure fault tolerance.
+<img src="https://raw.githubusercontent.com/sameerhussai230/PrivacyVision-GDPR-Enterprise_Secure_Analytics/main/PrivacyVision_GDPR.svg" width="100%" />
 
-```mermaid
-graph LR
-    subgraph Ingestion
-    CAM[Camera Source] -->|Capture| PROD[Producer Service]
-    PROD -->|JPEG Stream| KAFKA{Apache Kafka}
-    end
-
-    subgraph Core Processing
-    KAFKA -->|Consume| AI[AI Engine]
-    AI -->|YOLO11| DET[Detection & ByteTrack]
-    DET -->|Logic| PRIV[Hybrid Anonymizer] & COUNT[Buffer Zone Logic]
-    end
-
-    subgraph Data & UI
-    COUNT -->|SQL Transaction| DB[(PostgreSQL)]
-    DB -->|Smart Poll| DASH[Analytics Dashboard]
-    end
-```
 
 ---
 
@@ -132,8 +114,8 @@ The tech stack is modular. By changing the Model Weights and Logic Rules, this s
 ### 2. Installation
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/PrivacyVision.git
-cd PrivacyVision
+git clone https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise_Secure_Analytics.git
+cd PrivacyVision-GDPR-Enterprise_Secure_Analytics
 
 # Install dependencies
 pip install -r requirements.txt
