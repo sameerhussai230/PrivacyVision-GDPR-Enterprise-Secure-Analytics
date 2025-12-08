@@ -40,6 +40,7 @@ The system processes video feeds in real-time to generate precise event analytic
 
 ## 📸 Dashboard Screenshot
 
+![Dashboard Screenshot](https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/raw/main/dashboard.png)
 
 ---
 
