@@ -22,10 +22,10 @@ The system processes video feeds in real-time to generate precise event analytic
 **Original Video:**
 ![Original Test Video](https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/test_video_original.gif)
 
-**Privacy Vision (Face Detection):**
+**Privacy Vision (Face Privacy):**
 ![Face Detection Demo](https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_face.gif)
 
-**Privacy Vision (Body Detection):**
+**Privacy Vision (Body Privacy):**
 ![Body Detection Demo](https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_body.gif)
 
 **System In Action:**
