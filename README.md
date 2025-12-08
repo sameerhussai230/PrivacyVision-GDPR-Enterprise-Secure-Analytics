@@ -25,16 +25,6 @@ Here is a breakdown of how the model processes the input video in different priv
 | *Raw Footage* | *Anonymizes identities* | *Full privacy masking* |
 | <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/test_video_original.gif" width="100%"> | <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_face.gif" width="100%"> | <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_body.gif" width="100%"> |
 
-## Examples
-
-**Original Video:**
-![Original Test Video](https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/test_video_original.gif)
-
-**Privacy Vision (Face Privacy):**
-![Face Detection Demo](https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_face.gif)
-
-**Privacy Vision (Body Privacy):**
-![Body Detection Demo](https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_body.gif)
 
 **System In Action:**
 1.  **Ingestion:** Raw video is streamed via Kafka.
