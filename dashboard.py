@@ -8,9 +8,9 @@ import warnings
 import os
 from datetime import datetime
 
-# --------------------------------------------------------------------------------
+
 # 0. SYSTEM CONFIGURATION
-# --------------------------------------------------------------------------------
+
 os.environ["STREAMLIT_CLIENT_SHOW_ERROR_DETAILS"] = "false"
 warnings.filterwarnings("ignore")
 
@@ -38,9 +38,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --------------------------------------------------------------------------------
+
 # 1. DATABASE HELPERS
-# --------------------------------------------------------------------------------
+
 def init_connection():
     return psycopg2.connect(**DB_CONFIG)
 
@@ -74,9 +74,9 @@ def get_data():
         # In case of DB connection error, return empty DF
         return pd.DataFrame()
 
-# --------------------------------------------------------------------------------
+
 # 2. DATA LOADING & SIDEBAR
-# --------------------------------------------------------------------------------
+
 df = get_data()
 
 with st.sidebar:
@@ -101,16 +101,16 @@ with st.sidebar:
     if st.button("🔄 Force Refresh"):
         st.rerun()
 
-# --------------------------------------------------------------------------------
+
 # 3. MAIN DASHBOARD LAYOUT
-# --------------------------------------------------------------------------------
+
 st.title("👁️ PrivacyVision-GDPR: Enterprise Secure Analytics")
 st.markdown("Status: <span class='live-dot'>●</span> **Live Monitoring**", unsafe_allow_html=True)
 st.markdown("---")
 
-# --------------------------------------------------------------------------------
+
 # 4. DATA PROCESSING
-# --------------------------------------------------------------------------------
+
 
 # Filter Logic
 if not df.empty:
@@ -118,9 +118,9 @@ if not df.empty:
 else:
     df_view = pd.DataFrame()
 
-# --------------------------------------------------------------------------------
+
 # 5. KEY PERFORMANCE INDICATORS (KPIs)
-# --------------------------------------------------------------------------------
+
 if df_view.empty:
     if df.empty:
         st.warning("⚠️ Database is empty. Waiting for events...")
@@ -141,9 +141,9 @@ col2.metric("Total Exits", total_exits, delta="Out")
 
 st.markdown("---")
 
-# --------------------------------------------------------------------------------
+
 # 6. CHARTS & LOGS
-# --------------------------------------------------------------------------------
+
 if not df_view.empty:
     c1, c2 = st.columns([2, 1])
     
@@ -169,9 +169,9 @@ if not df_view.empty:
         display_cols['timestamp'] = display_cols['timestamp'].dt.strftime('%H:%M:%S')
         st.dataframe(display_cols, use_container_width=True, hide_index=True)
 
-# --------------------------------------------------------------------------------
+
 # 7. AUTO-REFRESH LOGIC
-# --------------------------------------------------------------------------------
+
 # This causes the script to rerun every 1 seconds
 time.sleep(1)
 st.rerun()
