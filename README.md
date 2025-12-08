@@ -48,7 +48,9 @@ The system processes video feeds in real-time to generate precise event analytic
 ---
 
 ## 🚀 Key Features
-*   **GDPR "Zero-Trust" Privacy:** Implements a hybrid protection layer. It detects and blurs faces; if a face is occluded (looking away), it calculates the head geometry based on body pose and blurs the region automatically.
+*   **GDPR "Zero-Trust" Privacy:** Implements a configurable hybrid protection layer.
+    *   **Face Privacy:** Detects and blurs faces; includes specific logic to calculate head geometry based on body pose if the face is occluded (looking away).
+    *   **Body Privacy:** Offers a **Full Body Blur** mode to completely mask individuals for high-security or strict anonymity environments.
 *   **Hysteresis Counting (Precision Logic):** Utilizes a **Buffer Zone (+/- 30px)** technique. An object is only counted when it definitively clears the threshold, eliminating false positives from loitering or jitter.
 *   **Stateful Tracking:** Leverages **ByteTrack** with a custom 4-second memory buffer (`track_buffer: 120`) to maintain identity continuity across temporary occlusions.
 *   **Enterprise Persistence:** Events are logged with unique Tracker IDs to **PostgreSQL**, enabling historical analysis and audit trails.
