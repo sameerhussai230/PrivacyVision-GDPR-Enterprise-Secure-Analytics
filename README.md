@@ -32,14 +32,6 @@ The system processes video feeds in real-time to generate precise event analytic
 | :---: | :---: |
 | <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_face.gif" width="100%"> | <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_body.gif" width="100%"> |
 
-### 2. Privacy Mode Comparisons
-Here is a breakdown of how the model processes the input video in different privacy modes.
-
-| **Original Input** | **Mode A: Face Blur** | **Mode B: Body Blur** |
-| :---: | :---: | :---: |
-| *Raw Footage* | *Anonymizes identities* | *Full privacy masking* |
-| <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/test_video_original.gif" width="100%"> | <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_face.gif" width="100%"> | <img src="https://github.com/sameerhussai230/PrivacyVision-GDPR-Enterprise-Secure-Analytics/releases/download/assests/privacy_vision_demo_body.gif" width="100%"> |
-
 
 **System In Action:**
 1.  **Ingestion:** Raw video is streamed via Kafka.
