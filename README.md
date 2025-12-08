@@ -38,6 +38,9 @@ The system processes video feeds in real-time to generate precise event analytic
 2.  **Processing:** The AI tracks individuals, blurring faces/heads dynamically while counting zone crossings.
 3.  **Visualization:** A live Streamlit dashboard reports Key Performance Indicators (KPIs) stored in PostgreSQL.
 
+## 📸 Dashboard Screenshot
+
+
 ---
 
 ## 🏗️ Architecture Diagram
