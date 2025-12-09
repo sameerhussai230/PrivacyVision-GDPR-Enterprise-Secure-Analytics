@@ -4,7 +4,8 @@
 
 **Real-Time, Privacy-Preserving Computer Vision Pipeline powered by YOLO11 & Kafka.**
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![YOLO11](https://img.shields.io/badge/AI-YOLO11-magenta) ![Kafka](https://img.shields.io/badge/Engineering-Apache%20Kafka-black) ![Docker](https://img.shields.io/badge/Infrastructure-Docker-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![YOLO11](https://img.shields.io/badge/AI-YOLO11-magenta) ![Kafka](https://img.shields.io/badge/Engineering-Apache%20Kafka-black) ![Docker](https://img.shields.io/badge/Infrastructure-Docker-blue) 
+![License](https://img.shields.io/badge/License-GPLv3-blue)
 
 ## 📖 Overview
 **PrivacyVision** is a scalable, end-to-end computer vision architecture designed for Smart Cities, Construction Sites, and High-Security Zones. It addresses the critical gap between **Operational Analytics** and **Privacy Compliance (GDPR/CCPA)**.
